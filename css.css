@@ -1,0 +1,300 @@
+/*通用样式*/
+*{margin:0; padding:0;}
+body{font:14px/24px 微软雅黑;}
+.wp{ width:960px; margin:0 auto;  }
+.wp1{ width:1920px; margin:0 auto;  }
+.z{float:left;}
+.y{float:right;}
+.cl{clear:both;}
+img{ border: none }
+.mr_0{ margin: 0 }
+
+/*标题栏*/
+.top{
+    width:100%;
+	height:30px;
+    line-height:24px;
+	background-color:#666666;
+    color:#f9f9f9;
+    }
+.top a{
+    color:#f9f9f9;
+    text-decoration:none;
+    }
+.top a:hover{
+    color:darkred;
+    }
+.weixin{
+    height:19px;
+    margin-top:1px;
+    margin-left:30px;
+}
+
+
+.logos{
+    height:69px;
+    margin: 15px;
+}
+/*搜索*/
+.sousuo{
+    width: 360px;
+    height: 41px;
+
+}
+.ss_z{
+    width: 6px;
+
+    background: url("images/images/s_z.jpg");
+
+}
+.ss_c{
+    width:50px;
+    background: url("images/images/s_c.jpg") repeat-x;
+}
+
+
+
+.biaoti{
+    width: 340px;
+    float: right;
+}
+.wenzi{
+    font-size: 26px;
+    color:#646464;
+    }
+.yingwen{
+    font-size:14.5px;
+    color:#646464;
+}
+.dianhua{
+    font-size: 12px;
+    color:#646464
+}
+/*导航栏*/
+
+.daohang{
+    height:49px;
+    width: 100%;
+    background: url("images/img_15.gif")repeat-x;
+}
+.daohang li{
+    list-style:none;
+    float:left;
+    line-height: 45px;
+    padding:0 34.5px;
+}
+
+/*  导航栏效果  前面加 .daohang li.a    */
+.daohang li:hover{
+    background:#8d8d8d repeat-y;
+}
+.daohang a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#5e5e5c;
+    }
+
+
+
+.ad{
+    height: 400px;
+}
+/*内容  新闻栏*/
+.内容{
+    height:640px;
+    width: 100%;
+    background: url("images/images/背景.jpg")repeat-x;
+    padding-bottom: 10px;
+
+}
+.z_b{
+    width:100%;
+    height:42px;
+    background-image: url("images/img_19.gif");
+    line-height:40px;
+    color:red;
+    font-size:8px;
+    margin-bottom: 10px;
+    }
+.z_b a{
+    text-decoration:none;
+    }
+
+
+/*简介框架*/
+.jianjie {
+    width: 540px;
+    height: 360px;
+    margin-right: 20px;
+}
+/*内容  <标题栏> */
+
+.tit{
+    padding-bottom: 8px;
+    border-bottom: 1px solid red;  /*下划线*/
+    position:relative;
+    margin-bottom: 10px;
+}
+/*超链接定位*/
+.tit span{
+    position:absolute;
+    right:0;
+    bottom:0;
+
+}
+
+.tit span a{
+    text-decoration: none;    /*去下划线*/
+    color: #666666;
+}
+
+
+/*简介文字部分*/
+.jj_c img{
+    float:left ;
+    margin:0 10px 10px 0 ;
+}
+
+.jj_c p{
+    color: #8d8d8d;
+    text-indent: 24px;/*段落首行缩进*/
+}
+/*新闻*/
+.xinwen{
+    width: 400px;
+    height: 360px;
+}
+
+
+
+
+.xw_c li{
+    list-style: none;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    padding-left:15px ;
+    background: url("images/images/list_bg.jpg")no-repeat center left;
+    margin-top: 8px;
+}
+.xw_c li.a{
+    background: none;
+    padding: 0;
+    height: 76px;
+    font-size: 14px;
+}
+.xw_c  p{
+    font-size: 12px;
+    text-indent: 24px;
+}
+.xw_c li img{
+    float: left;
+    margin: 0 10px 10px 0;
+
+}
+.xw_c h3{
+    font-weight: normal;
+    font-size: 14px;
+}
+.xw_c a{
+    text-decoration: none;
+    color: #8d8d8d;
+
+}
+.xw_c span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+
+}
+
+
+/*与顶部mr_0配合使用  消除右外边距*/
+.cp_c li.mr_0{
+    margin-right: 0;
+}
+
+
+/*图片控制*/
+.cp_c li{
+    list-style: none;
+    margin: 0 10px 10px 0;
+    height: 96px;
+    width: 151px;
+    float:left;
+    overflow: hidden;
+    position: relative;
+}
+/*鼠标移至上面 所显示的内容*/
+.cp_c span{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    font-size: 12px;
+    height: 20px;
+    background: darkred;
+    color: #ffffff;
+    width:91px;
+    padding: 0 30px;
+    overflow: hidden;
+
+}
+/*鼠标移至上面显示*/
+.cp_c li a:hover span{
+    display: block;
+}
+.cp_c img{
+    float:left;
+}
+
+
+
+/*底部栏*/
+.footer{
+    height: 103px;
+    width: 100%;
+    background: url(images/images/footer_bg.jpg) repeat-x;
+
+}
+.footer_top{
+    height: 80px;
+    line-height: 79px;
+}
+.footer_top a{
+    font-size:16px;
+    text-decoration: none;
+    color:#fff;
+}
+.footer_top a:hover{
+    color:#f60;
+}
+.footer_bottom{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.footer_a{
+    color:red;
+}
+.footer a{
+    text-decoration: none;
+    color:#fff;
+}
+.footer_bottom a:hover {
+    color: #f60;
+}
+.top1 {
+    height: 200px;
+    width: 40px;
+
+    position: fixed;
+    right: 60px;
+    bottom: 180px;
+    background: #fff;
+}
+
+.top1  img{
+    margin-bottom:4px ;
+}
